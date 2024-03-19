@@ -1,0 +1,23 @@
+.intro-content{
+    padding: 4%;
+    background-color: yellow;
+    font-weight: 800;
+    font-size: x-large;
+    border-radius: 1.5em;
+    margin: 2%;
+}
+.intro-page{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+}
+.portfolio-icon{
+    height: 100%;
+    width: 100%;
+    border-radius: 2em;
+}
+.portfolio-icon-container{
+    height: 30%;
+    width: 30%;
+}
