@@ -20,7 +20,7 @@ function Projects() {
             index: 2,
             content: `<p>You are watching it now.<ul><li>It is built using react.js </li><li>This project showcases my frontend skills.</li><li>For easy maintainance of the CSS code, I have written the CSS selectors in ascending order.</li><li>I have also used 'dangerouslySetInnerHTML' property here.</li></ul></p>`,
             github_link: "https://github.com/Giribabi/ShopEasy",
-            deployment_link: "https://sammidi-giridhar-portfolio.vercel.app/",
+            deployment_link: "#home-section",
         },
         {
             name: "My-Figma-Website",
