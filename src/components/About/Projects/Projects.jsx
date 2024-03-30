@@ -36,14 +36,6 @@ function Projects() {
             github_link: "github.com/Giribabi/figma-new-task2",
             deployment_link: "https://figma-new-task2.vercel.app/",
         },
-        {
-            name: "Rock-paper-scissors(SASS)",
-            index: 5,
-            content:
-                "<p>This is my first frontend project which I styled using SASS(Syntactically Awesome Style Sheets). I have also enhanced my skills in CSS animations using this project.</p>",
-            github_link: "https://github.com/Giribabi/Stone_Paper_Scissor",
-            deployment_link: "",
-        },
     ];
 
     function setToggle(index) {
@@ -86,7 +78,7 @@ function Projects() {
                                         href={project.github_link}
                                         target="blank"
                                     >
-                                        Watch the code
+                                        Watch the code on github
                                     </a>
                                     <a
                                         className="link"
