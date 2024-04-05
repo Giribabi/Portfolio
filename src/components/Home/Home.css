@@ -27,10 +27,11 @@
     text-decoration: none;
 }
 .about-heading {
+    text-align: center;
     color: rgb(253, 0, 202);
-    font-size: 300%;
+    font-size: 290%;
     font-weight: 900;
-    margin: 8%;
+    margin: 2%;
 }
 .codechef-caption {
     font-size: medium;
@@ -40,25 +41,12 @@
     text-align: center;
     animation: slideInLeft 1s ease-in 1;
 }
-.content {
-    display: flex;
-    flex-direction: row;
-    justify-content: space-between;
-    gap: 8%;
-    align-items: center;
-    margin: 1%;
-    margin-top: 0%;
-    margin-bottom: 2%;
-    padding: 2%;
-    background-color: yellow;
-    border-radius: 5em;
-    box-shadow: 8px 8px 8px rgb(147, 174, 184);
-}
 .description {
     margin: 2%;
     padding: 1% 5%;
     display: inline-block;
     background-color: white;
+    border: 15px solid yellow;
     border-radius: 2em;
     animation: slideInRight 1s ease-in 1;
 }
@@ -70,11 +58,11 @@
     margin: 1%;
 }
 .heading {
-    font-size: 350%;
+    font-size: 300%;
     font-weight: 800;
     overflow: hidden;
     white-space: nowrap;
-    animation: typing 5s;
+    animation: typing 4s linear 1;
     font-family: cursive;
 }
 .home-header {
@@ -92,24 +80,20 @@
 .introduction-content {
     font-size: x-large;
     padding: 1%;
-    margin: 5%;
+    margin: 2%;
 }
 .my-name {
     font-weight: 700;
     color: rgb(0, 197, 16);
 }
-.profile-image-container {
-    padding: 1%;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    /* animation: slideInLeft 1s ease-in 1; */
-}
 .profile-image {
-    height: 75%;
-    width: 75%;
-    border-radius: 5em;
-    box-shadow: 7px 7px 7px rgb(170, 170, 51);
+    float: right;
+    width: 25%;
+    min-width: 150px;
+    max-width: 250px;
+    border-radius: 2em;
+    box-shadow: 7px 7px 7px rgb(179, 179, 179);
+    margin: 2%;
 }
 @media (max-width: 850px) {
     .content {
@@ -133,6 +117,11 @@
     .home-header {
         gap: 5%;
     }
+    .profile-image-container {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
 }
 @media (max-width: 350px) {
     .home-header {
@@ -148,8 +137,5 @@
     }
     .introduction-content {
         font-size: large;
-    }
-    .content {
-        padding-bottom: 12%;
     }
 }
