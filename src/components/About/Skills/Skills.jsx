@@ -89,15 +89,18 @@ function Skills() {
                             : "none",
                     }}
                 >
-                    <li>I am good in problem solving.</li>
+                    <li>
+                        I am good in problem solving, using data structures and
+                        algorithms and customizing them.
+                    </li>
                     <li>I am capable of building beautiful User Interfaces.</li>
                     <li ref={skillsRef}>
                         I have good experience in developing MERN apps with
                         proficiency in React.js
                     </li>
                     <li>
-                        I am a consistently hardworking lad striving to better
-                        myself in every way possible.
+                        I am a consistently hardworking lad striving to improve
+                        my performance in every way possible.
                     </li>
                     <li>
                         I love educating my fellow geeks with all the knowledge

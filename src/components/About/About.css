@@ -139,9 +139,9 @@
     align-items: center;
 }
 .image-link {
-    height: 90%;
-    width: 90%;
-    border-radius: 2em;
+    height: 80%;
+    width: 75%;
+    border-radius: 0.5em;
     box-shadow: 5px 5px 5px 5px rgb(90, 149, 158);
 }
 .link {
@@ -160,7 +160,7 @@
     transition: transform 1s;
 }
 .profiles {
-    padding: 5%;
+    padding: 2%;
     display: grid;
     grid-template-columns: repeat(4, 1fr);
 }
@@ -191,9 +191,9 @@
 }
 .profile-link-image {
     /* animation: zoom*/
-    padding: 2%;
-    margin: 2%;
-    border-radius: 3em;
+    width: 100%;
+    padding: 1%;
+    margin: 1%;
 }
 .profile-link-image:hover {
     animation: zoom 1s ease 1;
