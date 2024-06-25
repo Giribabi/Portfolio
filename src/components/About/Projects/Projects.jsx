@@ -13,7 +13,7 @@ function Projects() {
             index: 1,
             content: `<p>This is a MERN stack chat application which enables user for login, signup and realtime messaging. <ul><li>I have mainly used Chakra-UI for the frontend.</li></p>`,
             github_link: "https://github.com/Giribabi/ChatEasy/",
-            deployment_link: "https://giribabi-chateasy.vercel.app/",
+            deployment_link: "https://giribabi-chateasy-new.vercel.app/",
         },
         {
             name: "Data Visualization",
