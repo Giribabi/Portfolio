@@ -14,6 +14,8 @@
 }
 .portfolio-icon {
     width: 34vw;
+    min-width: 250px;
+    max-width: 400px;
     border-radius: 2em;
 }
 .portfolio-icon-container {
