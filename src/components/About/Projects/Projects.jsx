@@ -88,7 +88,7 @@ function Projects() {
                                     >
                                         Watch how it looks when deployed
                                     </a>
-                                    {project.ppt_link && (
+                                    {/* {project.ppt_link && (
                                         <a
                                             className="link"
                                             href={project.ppt_link}
@@ -96,7 +96,7 @@ function Projects() {
                                         >
                                             View Presentation
                                         </a>
-                                    )}
+                                    )} */}
                                 </div>
                                 <div className="toggle-button-container">
                                     <div
