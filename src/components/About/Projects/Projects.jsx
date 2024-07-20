@@ -25,6 +25,8 @@ function Projects() {
             content: `<p>This is a MERN stack chat application which enables user for login, signup and realtime messaging. <ul><li>I have mainly used Chakra-UI for the frontend.</li></p>`,
             github_link: "https://github.com/Giribabi/ChatEasy/",
             deployment_link: "https://giribabi-chateasy-new.vercel.app/",
+            ppt_link:
+                "https://www.canva.com/design/DAGFgmBKjLU/kB3gaSDlWjUhjMBbm-1GyA/view?utm_content=DAGFgmBKjLU&utm_campaign=designshare&utm_medium=link&utm_source=editor",
         },
         {
             name: "My Portfolio",
