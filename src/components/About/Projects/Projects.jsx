@@ -9,12 +9,6 @@ function Projects() {
 
     const projects = [
         {
-            name: "ChatEasy",
-            content: `<p>This is a MERN stack chat application which enables user for login, signup and realtime messaging. <ul><li>I have mainly used Chakra-UI for the frontend.</li></p>`,
-            github_link: "https://github.com/Giribabi/ChatEasy/",
-            deployment_link: "https://giribabi-chateasy-new.vercel.app/",
-        },
-        {
             name: "VoteEasy",
             content: `<p>This is a web application through which people can easily vote in online mode from their home without compromising with data security.</p>`,
             github_link: "https://github.com/Giribabi/Vote-Easy/",
@@ -27,18 +21,18 @@ function Projects() {
             deployment_link: "https://twitter-twin.vercel.app/",
         },
         {
+            name: "ChatEasy",
+            content: `<p>This is a MERN stack chat application which enables user for login, signup and realtime messaging. <ul><li>I have mainly used Chakra-UI for the frontend.</li></p>`,
+            github_link: "https://github.com/Giribabi/ChatEasy/",
+            deployment_link: "https://giribabi-chateasy-new.vercel.app/",
+        },
+        {
             name: "My Portfolio",
             content: `<p>You are watching it now.<ul><li>It is built using ReactJs </li><li>This project showcases my frontend skills.</li><li>For easy maintainance of the CSS code, I have written the CSS selectors in ascending order.</li><li>I have also used 'dangerouslySetInnerHTML' property here for the first time.</li></ul></p>`,
             github_link: "https://github.com/Giribabi/ShopEasy",
             deployment_link: "#home-section",
             ppt_link:
                 "https://www.canva.com/design/DAGBi8OQfQ4/6ATe9DJMpZPeiyTMfftGrA/view?utm_content=DAGBi8OQfQ4&utm_campaign=designshare&utm_medium=link&utm_source=editor",
-        },
-        {
-            name: "ShopEasy",
-            content: `<p>This is an front-end project of an e-commerce platform and is completely designed in ReactJs.<ul> <li> The login username and password can be found in dummyjson docs. </li><li>I have already set the login credentials for direct login.</li><li>We must remember that accurate login credentials are necessary to enter into the home page. </li><li>After the login authentication, you will be redirected to the protected Home page. </li><li>Then you can search for the available products. </li><li>You can filter the products according to their price. </li><li>You can view the number of items added to cart at the top of the cart icon. </li><li>The total cost of the items in the cart is found below the cart icon. </li><li>You can view the cart by clicking on the cart icon. </li><li>You can also tap on any item card on the home page to view its complete description. </li><li>At last you can logout from the session by clicking the logout button. <li>I have collected and used all the data from <a href="https://dummyjson.com/docs" target="blank">here</a></li></ul></p>`,
-            github_link: "https://github.com/Giribabi/ShopEasy",
-            deployment_link: "https://shop-easy-updated.vercel.app/",
         },
     ];
 
