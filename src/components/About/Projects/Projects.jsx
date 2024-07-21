@@ -13,6 +13,8 @@ function Projects() {
             content: `<p>This is a web application through which people can easily vote in online mode from their home without compromising with data security.</p>`,
             github_link: "https://github.com/Giribabi/Vote-Easy/",
             deployment_link: "https://vote-easy.vercel.app/",
+            ppt_link:
+                "https://www.canva.com/design/DAGLfuESp38/aGxXBkvGNwQrIFBUxJBj-A/view?utm_content=DAGLfuESp38&utm_campaign=designshare&utm_medium=link&utm_source=editor",
         },
         {
             name: "Twitter-twin",
